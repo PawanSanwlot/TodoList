@@ -2,16 +2,29 @@ import './style.css'
 
 document.getElementById('app').innerHTML = `
   <div class="container">
-    <h1>My Todo list</h1>
-    <h2>Tasks</h2>
-    <ul>
-      <li>Wake Up Early</li>
-      <li>Gey fresh</li>
-      <li>Exersice</li>
-      <li>Drink water</li>
+    <h1 class="heading">My Todo list</h1>
+    
+    <input type="text" placeholder="Add Task" class="form-control add-task-input">
+    <button class="btn btn-success">Add</button>
+    <ul class="list-group">
+      <div class="task-container">
+        <li class="list-group-item">Wake Up Early</li>
+        <button class="btn btn-outline-danger btn-sm">Delete</button>
+      </div>
+      <div class="task-container">
+        <li class="list-group-item">Wake Up Early</li>
+        <button class="btn btn-outline-danger btn-sm">Delete</button>
+      </div>
+      <div class="task-container">
+        <li class="list-group-item">Wake Up Early</li>
+        <button class="btn btn-outline-danger btn-sm">Delete</button>
+      </div>
+      <div class="task-container">
+        <li class="list-group-item">Wake Up Early</li>
+        <button class="btn btn-outline-danger btn-sm">Delete</button>
+      </div>
     </ul>
 
-    <h2>Completed Tasks</h2>
   </div>
 `
 
