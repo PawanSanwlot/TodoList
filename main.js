@@ -2,7 +2,7 @@ import './style.css'
 
 document.getElementById('app').innerHTML = `
   <div class="container">
-    <h1 class="heading">My Todo list</h1>
+    <h1 class="heading">My Todo list!</h1>
     
     <input type="text" placeholder="Add Task" class="form-control add-task-input">
     <button class="btn btn-success">Add</button>
